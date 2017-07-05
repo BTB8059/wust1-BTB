@@ -8,7 +8,10 @@
     <title></title>
     <style type="text/css">
           #bg{
-                     background-color:peachpuff;
+                     background-color:silver;
+                      background-image:url('Images/bj8.jpg');
+                   
+
               }
         .auto-style1 {
             height: 40px;
@@ -22,7 +25,8 @@
 </head>
 <body id="bg">
     <form id="form1" runat="server">
-  
+     
+
     <div>
                        
 <marquee direction="left" align="bottom" height="25" width="100%" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="2" scrolldelay="1">武汉家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
@@ -145,10 +149,7 @@
        
 <br /><br />     
 
-    </div>
-           <div style="float:left">
-            <img src="Images/11.jpg" style="height:200px;width:1350px;" />
-        </div>
+   
     </form>
 </body>
 </html>

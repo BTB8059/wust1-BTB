@@ -16,13 +16,10 @@
         }
                
           #bg{
-                   /*background-color:mistyrose;*/
-               
-                   /*background-color:antiquewhite;*/
                    
+                   background-image:url('Images/bj1.jpg');
                    background-color:silver;
-                   /*background-color:lightpink;*/
-                   /*background-color:bisque;*/
+                  
               }
       #img{
 
@@ -46,7 +43,7 @@
              <div style="float:right"> <img  src="Images/12.jpg" style="height:130px;width:460px;"/></div>
             <br />
                 <div>
-                   <div style="padding-left:280px;">  <asp:Label runat="server" ID="lbl1"  Text="<h1> 欢迎来到猿辅导家教网</h1>"></asp:Label>
+                   <div style="padding-left:280px;">  <asp:Label runat="server" ID="lbl1"  ForeColor="cadetblue" Text="<h1> 欢迎来到猿辅导家教网</h1>"></asp:Label>
                           <asp:label runat="server"  ID="tim"   ></asp:label>&nbsp;
                           <asp:label runat="server"  ID="hh"  ></asp:label>
                    </div>
@@ -111,7 +108,7 @@
                                    
                   <div style="float:right"  >
                       <table align="right" >
-             <caption> <asp:Label ID="Label1" runat="server" Text="家长登录" Font-Size="30px" ForeColor="blue"  ></asp:Label></caption>
+             <caption> <asp:Label ID="Label1" runat="server" Text="家长登录" Font-Size="30px" ForeColor="cadetblue"  ></asp:Label></caption>
              <tr>
                  <td align="right">手机号：</td>
                  <td align="left" class="auto-style1"><asp:TextBox ID="ParPhone" runat="server" Height="20px"  Width="230px"></asp:TextBox></td>             
@@ -136,7 +133,7 @@
                <br />   <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
         <div  style="float:right; width: 326px;" >
              <table align="right" style="border-color:yellow"  >
-             <caption> <asp:Label ID="jiajiaodenglu" runat="server" Text="家教登录" Font-Size="30px" ForeColor="blue"  ></asp:Label></caption>
+             <caption> <asp:Label ID="jiajiaodenglu" runat="server" Text="家教登录" Font-Size="30px" ForeColor="cadetblue"  ></asp:Label></caption>
              <tr>
                  <td align="right">用户名：</td>
                  <td align="left" class="auto-style1"><asp:TextBox ID="TutUser" runat="server" Height="20px"  Width="230px"></asp:TextBox></td>             

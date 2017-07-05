@@ -9,6 +9,7 @@
     <style type="text/css">
           #bg{
                    background-color:silver;
+                   background-image:url('Images/bj1.jpg');
               }
       </style>
 </head>
