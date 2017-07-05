@@ -8,7 +8,7 @@
     <title></title>
     <style type="text/css">
           #bg{
-                   background-color:peachpuff;
+                   background-color:silver;
               }
       </style>
 </head>
@@ -16,14 +16,14 @@
     <form id="form1" runat="server">
     <br />
     <div>
-        <asp:Label ID="lable1" runat="server" ForeColor="blue"  Font-Size="15px" 
-            Text="武汉家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
+        <asp:Label ID="lable1" runat="server" ForeColor="black"  Font-Size="15px" 
+            Text="猿辅导家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
                  请按照以下方式进行注册,注册后就能与家长进行联系！"   ></asp:Label>
     </div>
     <br />
     <br />
     <div align="center">
-        <asp:Label ID="label1" runat="server" Text="家教个人中心" ForeColor="YellowGreen" Font-Size="35px"></asp:Label>
+        <asp:Label ID="label1" runat="server" Text="家教个人中心" ForeColor="blue" Font-Size="35px"></asp:Label>
         <br />
         <br />
     </div>
