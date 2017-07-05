@@ -8,7 +8,7 @@
     <title></title>
        <style type="text/css">
           #bg{
-                      background-color:peachpuff;
+                      background-color:silver;
               }
       </style>
 </head>
