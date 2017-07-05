@@ -242,8 +242,7 @@
     <Content Include="Images\18.jpg" />
     <Content Include="Images\19.jpg" />
     <Content Include="Images\20.jpg" />
-    <Content Include="Images\J1.jpg" />
-    <Content Include="Images\J2.jpg" />
+    <Content Include="Images\pink.jpg" />
     <Content Include="Images\s.jpg" />
     <Content Include="Scripts\ParentIndividualCenter.aspx" />
     <Content Include="ShowCheck.aspx" />
