@@ -19,7 +19,7 @@
         }
        
           #bg{
-                 background-color:peachpuff;
+                 background-color:silver;
               }
    
         </style>
@@ -27,9 +27,8 @@
 <body id="bg">
     <form id="form1" runat="server">
     <div>
-        <asp:Label ID="lable1" runat="server" ForeColor="blue"  Font-Size="15px" 
-            Text="武汉家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
-                 请按照以下方式进行注册,注册后就能与家长进行联系！" ></asp:Label>   
+        <marquee direction="left" align="bottom" height="25" width="100%" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="2" scrolldelay="1">武汉家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
+                 请按照以下方式进行注册,注册后就能与家长进行联系！</marquee>    
     </div>
         <br />
         <br />
@@ -46,12 +45,12 @@
             Text="*为必填信息"></asp:label>            
     </div>
         <br />
-        <div align="center">
-    <table >
+        <div>
+    <table align="center">
         <tr>            
              <td align="right" class="auto-style2">*用户名:</td>                        
              <td align="left"><asp:TextBox ID="username" runat="server"  ></asp:TextBox></td>                                      
-             <td align="left"><asp:Button ID="jc" runat="server" Text="用户名检测" ValidationGroup="n"  style="height: 21px" /></td>       
+             <td align="left"><asp:Button ID="jc" runat="server" Text="用户名检测" BackColor="SkyBlue" ValidationGroup="n"  style="height: 21px" /></td>       
              <td class="auto-style1" ><asp:RequiredFieldValidator ID="RequiredFieldValidator1"  runat="server" ControlToValidate="username" ValidationGroup="n" ErrorMessage="用户名不能为空!" ForeColor="Red" ></asp:RequiredFieldValidator></td>
              <td ><asp:RegularExpressionValidator ID="RegularExpressionValidator1"  runat="server"  ControlToValidate="username" ValidationGroup="n" ErrorMessage="格式不正确！<%--6~18个字符包括字母数字下划线，字母开头，字母或数字结尾--%>"  ForeColor="OrangeRed"
              ValidationExpression ="^[a-zA-Z]\w{5,17}$"></asp:RegularExpressionValidator></td> 
@@ -99,7 +98,7 @@
             </div>
         
             <div align="center">
-            <asp:Button ID="button1" runat="server" Text="同意协议并注册"  BackColor="Yellow" Height="29px" Width="169px" OnClick="button1_Click" />
+            <asp:Button ID="button1" runat="server" Text="同意协议并注册"  BackColor="skyblue" Height="29px" Width="169px" OnClick="button1_Click" />
             </div>    
             </div>
     </form>
