@@ -20,7 +20,7 @@
                
                    /*background-color:antiquewhite;*/
                    
-                   background-color:peachpuff;
+                   background-color:silver;
                    /*background-color:lightpink;*/
                    /*background-color:bisque;*/
               }
