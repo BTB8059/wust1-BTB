@@ -7,6 +7,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>欢迎管理员</title>
     <style type="text/css">
+        body {
+            background-image:url('Images/wly1.jpg');
+        }
          #bj{
             width:30%;
             margin-left:400px;
@@ -24,29 +27,36 @@
             text-align: center;
             font-size: 18px;
         }
-
-        img { 
-            width: 100%;
-            height: auto;
-            opacity: 0.3;
+        .auto-style1 {
+            color:#ffffff;
         }
+        .re {
+            background-color:antiquewhite;
+            opacity:0.5;
+        }
+        .blank{
+            height:100px;
+        }
+         
     </style>
 </head>
 <body>
-    <div class="container">
-        <img src="wly1.jpg" alt="Norway" width="800" height="100">
+   <div class="container">
+        <div class="img">
         <div class="center">
     <form id="form1" runat="server">
     <div id="bj">
       
     <div style="width: 530px">
-                       
-<marquee direction="left" align="bottom" height="25" width="100%" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="2" scrolldelay="1">武汉家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
+<div class="re">                      
+<marquee direction="left" align="bottom"  height="25" width="100%" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="2" scrolldelay="1">武汉家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
                  请按照以下方式进行注册,注册后就能与家长进行联系！</marquee>
+</div>
     </div>
+        <div class="blank"></div>
 
        <table align="center" width:30%; style="height: 199px; width: 366px">
-        <caption>欢迎管理员</caption>
+        <caption class="auto-style1">欢迎管理员</caption>
               
         <tr>
            
