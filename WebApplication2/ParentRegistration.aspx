@@ -7,17 +7,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
     <style type="text/css">
-          #bg{
-                    
-                   /*background-color:mistyrose;*/
-               
-                   /*background-color:antiquewhite;*/
-                   
-                   background-color:silver;
-                  
-
-                   /*background-color:lightpink;*/
-                   /*background-color:bisque;*/
+          body{
+                   background-image:url('Images/s.jpg');
+                   background-size:cover;
+                   /*background-color:silver;*/
               
               }
       </style>
@@ -34,7 +27,7 @@
         <br />
         <br />
     <div align="center">
-        <asp:Label ID="labe" runat="server" Text ="家长注册" ForeColor="#ff3300"  Font-Size="30px"></asp:Label>
+        <asp:Label ID="labe" runat="server" Text ="家长注册"  ForeColor="#ff3300"  Font-Size="30px"></asp:Label>
     </div>
         <br />
         <br />
