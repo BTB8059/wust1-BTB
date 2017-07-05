@@ -44,7 +44,7 @@
         <br />
     </div>
     <div>         
-          <div style="float:left"> <img  src="Images/14.jpg" style="height:250px; width:250px;"/></div>
+          <div style="float:left"> <img  src="Images/o.png" style="height:250px; width:250px;"/></div>
       
        <div style="padding-left:30px; " class="auto-style2"> <asp:Label ID="label2" runat="server" Text="您的资料"  Font-Size="25px" ForeColor="Red"></asp:Label>
         <br />
