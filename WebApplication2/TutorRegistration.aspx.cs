@@ -20,7 +20,7 @@ namespace WebApplication2
         {
             psw1.Attributes["value"] = psw1.Text;
             psw2.Attributes["value"] = psw2.Text;
-            string connStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\家教网\导师制-家教网\WebApplication2\App_Data\TutorInf.mdf;Integrated Security=True";
+            string connStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\VS项目\导师制-家教网\WebApplication2\App_Data\TutorInf.mdf;Integrated Security=True";
             SqlConnection conn = new SqlConnection(connStr);
             try
             {
