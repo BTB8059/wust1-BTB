@@ -8,7 +8,7 @@
     <title></title>
     <style type="text/css">
         .bg1 {
-            background-color: aliceblue;
+           background-image:url(/Images/pink.jpg);
         }
 
         .style1 {
