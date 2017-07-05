@@ -14,9 +14,7 @@
                    /*background-color:antiquewhite;*/
                    
                    background-color:silver;
-                   /*background-image:url('Images/学生.jpg');
-                    background-repeat:no-repeat;
-                    background-repeat:repeat-y;*/
+                  
 
                    /*background-color:lightpink;*/
                    /*background-color:bisque;*/
