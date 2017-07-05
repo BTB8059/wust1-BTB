@@ -13,9 +13,11 @@
             margin-left:400px;
             height:230px;
         }
+        
+   
  #bg{
     
-      background-color:silver;
+      background-color:peachpuff;
 
  }
      
@@ -34,7 +36,7 @@
         <br />
         <br />
     <div align="center">
-        <asp:Label ID="labe" runat="server" Text ="管理员注册" ForeColor="Red"  Font-Size="30px"></asp:Label>
+        <asp:Label ID="labe" runat="server" Text ="管理员注册" ForeColor="GreenYellow"  Font-Size="30px"></asp:Label>
     </div>
         <br />
         <br />
@@ -53,7 +55,7 @@
         <td align="right">*您的手机：</td>
         <td align="left"><asp:TextBox ID="nindeshouji" runat="server"></asp:TextBox></td>
 
-        <td align="left" class="auto-style2"><asp:Button ID="jc" runat="server" Text="手机号检测" BackColor="SkyBlue" ValidationGroup="n"  style="height: 21px" OnClick="jc_Click"/></td>         
+        <td align="left" class="auto-style2"><asp:Button ID="jc" runat="server" Text="手机号检测" ValidationGroup="n"  style="height: 21px" OnClick="jc_Click"/></td>         
         <td align="left"><asp:RequiredFieldValidator ID="RequiredFieldValidator_nindeshouji" runat="server" ValidationGroup="n"
         ErrorMessage="手机号必填" ForeColor="Red" ControlToValidate="nindeshouji" Text="*不能为空"></asp:RequiredFieldValidator></td>
     </tr>
@@ -96,9 +98,9 @@
 </table>
   </div>
         <div align="center">
-            <asp:Button ID="zhuce" runat="server" Text="注册"  BackColor="SkyBlue" Height="29px" Width="71px" OnClick="zhuce_Click" />
+            <asp:Button ID="zhuce" runat="server" Text="注册"  BackColor="Yellow" Height="29px" Width="71px" OnClick="zhuce_Click" />
         </div>    
-        <br/>
+        <br />
         <div>
         </div>  
     </form>
