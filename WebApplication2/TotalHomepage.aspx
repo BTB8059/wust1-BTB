@@ -39,14 +39,14 @@
         
            
                 
-<marquee direction="left" align="bottom" height="25" width="100%" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="2" scrolldelay="1">武汉家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
+<marquee direction="left" align="bottom" height="25" width="100%" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="2" scrolldelay="1">猿辅导家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
                  请按照以下方式进行注册,注册后就能与家长进行联系！</marquee>
-                <div style="float:left"> <img  src="Images/10.jpg" style="height:200px;width:192px;"/></div>
+                <div style="float:left"> <img  src="Images/o.png" style="height:200px;width:192px;"/></div>
             
              <div style="float:right"> <img  src="Images/12.jpg" style="height:130px;width:460px;"/></div>
             <br />
                 <div>
-                   <div style="padding-left:280px;">  <asp:Label runat="server" ID="lbl1"  Text="<h1> 欢迎来到武汉家教网</h1>"></asp:Label>
+                   <div style="padding-left:280px;">  <asp:Label runat="server" ID="lbl1"  Text="<h1> 欢迎来到猿辅导家教网</h1>"></asp:Label>
                           <asp:label runat="server"  ID="tim"   ></asp:label>&nbsp;
                           <asp:label runat="server"  ID="hh"  ></asp:label>
                    </div>
@@ -72,24 +72,38 @@
                 <div style="float:left"><asp:LinkButton  runat="server"  Text="武昌/洪山/汉阳"></asp:LinkButton></div>
                           <br />  <br /><br />  <br />
                          <div style="float:left"><asp:LinkButton  runat="server"  Text="小学/初中/高中/小升初/初升高"></asp:LinkButton></div>  <br /><br /> <br />  <br />  
-                            <div style="float:left"><asp:LinkButton  runat="server"  Text="语文/数学/英语/理科/文科"></asp:LinkButton></div>  <br /><br /> <br />  
-
+                            <div style="float:left"><asp:LinkButton  runat="server"  Text="语文/数学/英语/理科/文科"></asp:LinkButton></div>  <br /><br /> <br />  <br />
+                            <div style="float:left"><asp:LinkButton  runat="server"  Text="托福/雅思/口语/商务英语/新概念英语"></asp:LinkButton></div>  <br /><br /> <br />  
+                             <div style="float:left"><asp:LinkButton  runat="server"  Text="绘画/钢琴/小提琴/舞蹈/摄影"></asp:LinkButton></div>  <br /><br /> <br /> <br /> 
                         </div>
                 <div  style="height:300px; width: 420px; float:left; padding-left:180px;"  >
               <table> 
                   <caption><h2 style="color:red">火热咨询中！赶紧加入吧！</h2></caption>
                 <tr><td><img src="Images/6.jpg" style="width:170px;height:170px;"></td>
                     <td class="auto-style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</td>
-                    <td><img src="Images/7.jpg" style="width:170px;height:170px;"/></td>
+                    <td><img src="Images/r.jpg" style="width:170px;height:170px;"/></td>
                 </tr> 
                   <tr><td>胡梦老师</td><td class="auto-style3"></td><td>郭东东老师</td></tr>
                    <tr>
-                       <td><img src="Images/9.jpg" style="width:170px;height:170px;"></td>
+                       <td><img src="Images/m.jpg" style="width:170px;height:170px;"></td>
                        <td class="auto-style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</td>
                        <td><img src="Images/14.jpg" style="width:170px;height:170px;"/></td>
                        </tr>
                   <tr>
                       <td>林玉敏老师</td><td class="auto-style3"></td><td>徐艺老师</td>
+                </tr> 
+                <tr><td><img src="Images/g.jpg" style="width:170px;height:170px;"></td>
+                    <td class="auto-style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</td>
+                    <td><img src="Images/h.jpg" style="width:170px;height:170px;"/></td>
+                </tr> 
+                  <tr><td>舞蹈辅导</td><td class="auto-style3"></td><td>小提起辅导</td></tr>
+                   <tr>
+                       <td><img src="Images/p.jpg" style="width:170px;height:170px;"></td>
+                       <td class="auto-style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</td>
+                       <td><img src="Images/e.jpg" style="width:170px;height:170px;"/></td>
+                       </tr>
+                  <tr>
+                      <td>绘画辅导</td><td class="auto-style3"></td><td>钢琴辅导</td>
                 </tr> 
              </table>
                          
@@ -97,7 +111,7 @@
                                    
                   <div style="float:right"  >
                       <table align="right" >
-             <caption> <asp:Label ID="Label1" runat="server" Text="家长登录" Font-Size="30px" ForeColor="red"  ></asp:Label></caption>
+             <caption> <asp:Label ID="Label1" runat="server" Text="家长登录" Font-Size="30px" ForeColor="blue"  ></asp:Label></caption>
              <tr>
                  <td align="right">手机号：</td>
                  <td align="left" class="auto-style1"><asp:TextBox ID="ParPhone" runat="server" Height="20px"  Width="230px"></asp:TextBox></td>             
@@ -112,8 +126,8 @@
              <tr>
                  <td></td>
                  <td>
-                      <asp:Button ID="Button1" runat="server" Text="登录" BackColor="GreenYellow" CssClass="auto-style2" Height="32px" Width="78px" OnClick="ParLog_Click" />
-       <asp:Button ID="Button2" runat="server" Text="注册" BackColor="GreenYellow" CssClass="auto-style2" Height="32px" Width="78px" OnClick="ParReg_Click" />
+                      <asp:Button ID="Button1" runat="server" Text="登录" BackColor="skyblue" CssClass="auto-style2" Height="32px" Width="78px" OnClick="ParLog_Click" />
+       <asp:Button ID="Button2" runat="server" Text="注册" BackColor="skyblue" CssClass="auto-style2" Height="32px" Width="78px" OnClick="ParReg_Click" />
    
                  </td>
              </tr>
@@ -122,7 +136,7 @@
                <br />   <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
         <div  style="float:right; width: 326px;" >
              <table align="right" style="border-color:yellow"  >
-             <caption> <asp:Label ID="jiajiaodenglu" runat="server" Text="家教登录" Font-Size="30px" ForeColor="red"  ></asp:Label></caption>
+             <caption> <asp:Label ID="jiajiaodenglu" runat="server" Text="家教登录" Font-Size="30px" ForeColor="blue"  ></asp:Label></caption>
              <tr>
                  <td align="right">用户名：</td>
                  <td align="left" class="auto-style1"><asp:TextBox ID="TutUser" runat="server" Height="20px"  Width="230px"></asp:TextBox></td>             
@@ -138,9 +152,9 @@
                  
                
              <td>   </td>    
-             <td>         <asp:Button ID="TutLog" runat="server" Text="登录" BackColor="GreenYellow" CssClass="auto-style2" Height="32px" Width="78px" OnClick="TutLog_Click" />               
+             <td>         <asp:Button ID="TutLog" runat="server" Text="登录" BackColor="skyblue" CssClass="auto-style2" Height="32px" Width="78px" OnClick="TutLog_Click" />               
                                   
-                    <asp:Button ID="TutReg" runat="server" Text="注册" BackColor="GreenYellow" CssClass="auto-style2" Height="32px" Width="78px" OnClick="TutReg_Click" />
+                    <asp:Button ID="TutReg" runat="server" Text="注册" BackColor="skyblue" CssClass="auto-style2" Height="32px" Width="78px" OnClick="TutReg_Click" />
               </td>   </tr>
              </table>
                 </div>
