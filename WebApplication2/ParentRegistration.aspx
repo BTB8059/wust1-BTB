@@ -13,7 +13,11 @@
                
                    /*background-color:antiquewhite;*/
                    
-                   background-color:peachpuff;
+                   background-color:silver;
+                   /*background-image:url('Images/学生.jpg');
+                    background-repeat:no-repeat;
+                    background-repeat:repeat-y;*/
+
                    /*background-color:lightpink;*/
                    /*background-color:bisque;*/
               
@@ -51,7 +55,7 @@
         <td align="right">*您的手机：</td>
         <td align="left"><asp:TextBox ID="nindeshouji" runat="server"></asp:TextBox></td>
 
-        <td align="left" class="auto-style2"><asp:Button ID="jc" runat="server" Text="手机号检测" ValidationGroup="n"  style="height: 21px" OnClick="jc_Click"/></td>         
+        <td align="left" class="auto-style2"><asp:Button ID="jc" runat="server" Text="手机号检测" BackColor="skyblue" ValidationGroup="n"  style="height: 21px" OnClick="jc_Click"/></td>         
         <td align="left"><asp:RequiredFieldValidator ID="RequiredFieldValidator_nindeshouji" runat="server" ValidationGroup="n"
         ErrorMessage="手机号必填" ForeColor="Red" ControlToValidate="nindeshouji" Text="*不能为空"></asp:RequiredFieldValidator></td>
     </tr>
@@ -141,7 +145,7 @@
             <asp:CheckBox ID="CheckBox1"  runat="server"  AutoPostBack="true"  Text="同意使用协议" ForeColor="Blue" />
         </div>
         <div align="center">
-            <asp:Button ID="zhuce" runat="server" Text="注册"  BackColor="Yellow" Height="29px" Width="71px" OnClick="zhuce_Click" />
+            <asp:Button ID="zhuce" runat="server" Text="注册"  BackColor="skyblue" Height="29px" Width="71px" OnClick="zhuce_Click" />
         </div>    
         <br />
         <div>
