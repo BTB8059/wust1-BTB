@@ -8,7 +8,7 @@
     <title></title>
     <style type="text/css">
           body{
-                   background-image:url('Images/s.jpg');
+                   background-image:url('Images/J2.jpg');
                    background-size:cover;
                    /*background-color:silver;*/
               
@@ -23,6 +23,7 @@
 <marquee direction="left" align="bottom" height="25" width="100%" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="2" scrolldelay="1">武汉家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
                  请按照以下方式进行注册,注册后就能与家长进行联系！</marquee>  
     </div>
+        <div style="float:left"><img src="Images/o.png" style="height:200px;width:200px;" /></div>
         <br />
         <br />
         <br />
