@@ -7,27 +7,39 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>欢迎管理员</title>
     <style type="text/css">
-        #bj{
-            background-color:seagreen;
+         #bj{
             width:30%;
             margin-left:400px;
             height:230px;
         }
-        
-   
- #bg{
-    
-   background-color:peachpuff;
+        .container {
+            position: relative;
+        }
 
- }
-     
+        .center {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        img { 
+            width: 100%;
+            height: auto;
+            opacity: 0.3;
+        }
     </style>
 </head>
-<body id="bg">
+<body>
+    <div class="container">
+        <img src="wly1.jpg" alt="Norway" width="800" height="100">
+        <div class="center">
     <form id="form1" runat="server">
     <div id="bj">
       
-    <div>
+    <div style="width: 530px">
                        
 <marquee direction="left" align="bottom" height="25" width="100%" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="2" scrolldelay="1">武汉家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
                  请按照以下方式进行注册,注册后就能与家长进行联系！</marquee>
@@ -75,6 +87,7 @@
     </table>
     </div>
     </form>
+    </div>
+  </div>
 </body>
 </html>
-
