@@ -50,9 +50,6 @@ namespace WebApplication2.Scripts
             {
                 Response.Write("连接失败！");
             }
-
-           
-
         }
 
         protected void ParLog_Click(object sender, EventArgs e)
