@@ -7,21 +7,26 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
     <style type="text/css">
-        .auto-style1 {
-            width: 250px;
-        }
-        .auto-style2 {
-            height: 323px;
-            width: 1273px;
-        }
-    </style>
+          body{
+                   background-image:url('Images/J2.jpg');
+                   background-size:cover;
+                   /*background-color:silver;*/
+              
+              }
+      </style>
 </head>
 <body>
     <form id="form1" runat="server">
-
+    <div>                     
+    <marquee direction="left" align="bottom" height="25" width="100%" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="2" scrolldelay="1">猿辅导家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
+                 请按照以下方式进行注册,注册后就能与家长进行联系！</marquee>  
+    </div>
+    <br />
+    <br />
     <div>
-        <asp:Label ID="fabuzhaopinxinxi" runat="server" ForeColor="Orange"  Font-Size="25px" 
+        <asp:Label ID="fabuzhaopinxinxi" runat="server" ForeColor="cadetblue"  Font-Size="25px" 
             Text="发布招聘信息：" ></asp:Label> 
+        <br />
         <br />
         <asp:Label ID="gerenzhongxin" runat="server" ForeColor="red"  Font-Size="20px" 
             Text="请补充以下信息便于为您推荐合适家教*为必填" ></asp:Label> 
