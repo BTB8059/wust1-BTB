@@ -8,7 +8,7 @@
     <title></title>
           <style type="text/css">
           #bg{
-                     background-color:silver;
+                     background-image:url(/Images/pink.jpg);
               }
       </style>
 </head>
@@ -20,11 +20,12 @@
             Text="武汉家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
                  请按照以下方式进行注册,注册后就能与家长进行联系！"   ></asp:Label>
     </div>
+        <asp:Image ID="Image1" runat="server"  ImageUrl="~/Images/yuanfudao.jpg" />
         
          <div align="center">
         <table>
              <tr>
-                <td align="right" class="auto-style4" >*课时费：</td>
+                <td align="right" class="auto-style4" >课时费：</td>
                 <td align="left" class="auto-style3">
                 <asp:UpdatePanel ID="updatepanel1" runat="server"> 
                 <ContentTemplate>
@@ -50,11 +51,10 @@
   </div>
         <br />
         <br />
-        <br />
   <div align="center">
       <table>
             <tr>
-                <td align="right" class="auto-style2">*授课区域：</td>
+                <td align="right" class="auto-style2">授课区域：</td>
                 <td align="left" class="auto-style2">
                     <asp:UpdatePanel ID="updatepanel2" runat="server"> 
                     <ContentTemplate>  
@@ -92,12 +92,11 @@
   </div>
         <br />
         <br />
-        <br />
 
   <div align="center">
       <table>
              <tr>
-                <td align="right">*教授学科：</td>
+                <td align="right">教授学科：</td>
                 <td align="left">
                     <asp:UpdatePanel ID="updatepanel3" runat="server"> 
                     <ContentTemplate>   
@@ -126,7 +125,7 @@
     <br />
     <br />
     <div align="center">
-       <asp:Button runat="server" Text="查找" OnClick="Unnamed1_Click"   Height="34px"  Width="79px"/>
+       <asp:Button runat="server" Text="查找" OnClick="Unnamed1_Click"  ForeColor="White" BackColor="RoyalBlue" Height="34px"  Width="79px"/>
     </div>
     </form>
 </body>

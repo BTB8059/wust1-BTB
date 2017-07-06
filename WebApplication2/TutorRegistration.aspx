@@ -35,7 +35,7 @@
     <form id="form1" runat="server">
         <div class="style6">
             <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/yuanfudao.jpg" />
-            <asp:Label ID="labe" runat="server" Style="margin-left:200px"  Font-Size="80px" Font-Names="標楷體">家教注册</asp:Label>
+            <asp:Label ID="labe" runat="server" Style="margin-left:200px"  ForeColor="RoyalBlue"  Font-Size="40px>家教注册</asp:Label>
         </div>
         <br />
         <div class="style2">

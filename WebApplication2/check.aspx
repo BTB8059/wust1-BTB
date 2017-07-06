@@ -8,7 +8,7 @@
     <title></title>
        <style type="text/css">
           #bg{
-                      background-color:silver;
+                   background-image:url(/Images/pink.jpg);
               }
       </style>
 </head>
@@ -19,26 +19,23 @@
   <div>
        
     <div>
-                       
-<marquee direction="left" align="bottom" height="25" width="100%" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="2" scrolldelay="1">武汉家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
-                 请按照以下方式进行注册,注册后就能与家长进行联系！</marquee>
+ <asp:Label ID="lable1" runat="server" ForeColor="Blue"  Font-Size="15px" 
+            Text="武汉家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
+                 请按照以下方式进行注册,注册后就能与家长进行联系！"   ></asp:Label>                      
+        
+    </div>
+ </div>
+    <div>
+        <asp:Image ID="Image1" runat="server"  ImageUrl="~/Images/yuanfudao.jpg" />
+        <asp:Label ID="labe" runat="server"  Text ="家长选择查看家教信息" Style="margin-left:300px" ForeColor="RoyalBlue"  Font-Size="40px"></asp:Label>
     </div>
 
-        <br />
-        <br />
-        <br />
- </div>
-    <div align="center">
-        <asp:Label ID="labe" runat="server" Text ="家长选择查看家教信息" ForeColor="GreenYellow"  Font-Size="30px"></asp:Label>
-    </div>
-        <br />
-        <br />
         <br />
         <br />
      <div align="center">
         <table>
              <tr>
-                <td align="right" class="auto-style4" >*课时费：</td>
+                <td align="right" class="auto-style4" >课时费：</td>
                 <td align="left" class="auto-style3">
                 <asp:UpdatePanel ID="updatepanel1" runat="server"> 
                 <ContentTemplate>
@@ -64,11 +61,10 @@
   </div>
         <br />
         <br />
-        <br />
   <div align="center">
       <table>
             <tr>
-                <td align="right" class="auto-style2">*授课区域：</td>
+                <td align="right" class="auto-style2">授课区域：</td>
                 <td align="left" class="auto-style2">
                     <asp:UpdatePanel ID="updatepanel2" runat="server"> 
                     <ContentTemplate>  
@@ -106,12 +102,12 @@
   </div>
         <br />
         <br />
-        <br />
+
 
   <div align="center">
       <table>
              <tr>
-                <td align="right">*教授学科：</td>
+                <td align="right">教授学科：</td>
                 <td align="left">
                     <asp:UpdatePanel ID="updatepanel3" runat="server"> 
                     <ContentTemplate>   
@@ -140,7 +136,7 @@
     <br />
     <br />
     <div align="center">
-        <asp:Button ID="chazhao" runat="server" Text ="查找" ForeColor="White" BackColor="Green" Height="34px"  OnClick="chazhao_Click" Width="79px" />
+        <asp:Button ID="chazhao" runat="server" Text ="查找" ForeColor="White" BackColor="RoyalBlue" Height="34px"  OnClick="chazhao_Click" Width="79px" />
     </div>
     </form>
 </body>
