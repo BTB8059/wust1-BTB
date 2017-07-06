@@ -8,7 +8,8 @@
     <title></title>
     <style type="text/css">
           #bg{
-                   background-color:peachpuff;
+                   background-image:url('Images/J2.jpg');
+                   background-size:cover;
               }
       </style>
 </head>
