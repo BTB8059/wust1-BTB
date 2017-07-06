@@ -76,17 +76,20 @@
             if (repassword !== psd1) {
                 document.getElementById("repasswordInfo").innerHTML = "两次输入的密码不一致";
             }
-            else if (repassword == psd1) {
+            else{
                 document.getElementById("repasswordInfo").innerHTML = "";
             }
         }
+
     </script>
 </head>
+
 <body class="bg">
     <div class="bg1">
         <img src="img/yuanfudao.jpg" width="150" height="150" style="margin-left:100px">
         <label for="title" class="style1">家教注册</label>
     </div>
+
     <div>
         <table class="style3">
             <tr class="style4">
@@ -113,26 +116,26 @@
             <tr class="style4">
                 <td class="style2">邮箱：</td>
                 <td>
-                    <input type="text" id="email" placeholder="如wusthh@163.com" style="color:gray;font-style:italic" onfocus="if(this.value=='如wusthh@163.com') this.value='';this.style.color='Black';this.style.fontStyle='normal'"/>
+                    <input type="text" id="email"/>
                 </td>
             </tr>
             <tr class="style4">
                 <td class="style2">手机：</td>
                 <td>
-                    <input type="text" id="phone" />
+                    <input type="text" id="phone"/>
                 </td>
             </tr>
             <tr class="style4">
                 <td class="style2">身份选择：</td>
                 <td>
-                    <label><input type="radio" name="R1" id="Radio1" />个人家教</label>
+                    <label><input type="radio" name="R1" id="Radio1" checked="checked"/>个人家教</label>
                     <label><input type="radio" name="R1" id="Radio2"/>辅导机构</label>
                 </td>
             </tr>
         </table>       
     </div>
     <div class="style5">
-        <input id="Submit1" type="submit" value="提交" />
+        <input id="Submit1" type="submit" value="提交" />&nbsp;&nbsp;
         <input id="Reset1" type="reset" value="重填" />
     </div>
 </body>
