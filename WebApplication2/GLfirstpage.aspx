@@ -7,56 +7,66 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>欢迎管理员</title>
     <style type="text/css">
-        body {
-            background-image:url('Images/wly1.jpg');
-        }
-         #bj{
-            width:30%;
-            margin-left:400px;
-            height:230px;
-        }
-        .container {
-            position: relative;
-        }
-
-        .center {
-            position: absolute;
-            left: 0;
-            top: 50%;
-            width: 100%;
-            text-align: center;
-            font-size: 18px;
-        }
         .auto-style1 {
-            color:#ffffff;
+            width: 157px;
         }
-        .re {
-            background-color:antiquewhite;
-            opacity:0.5;
+        .auto-style2 {
+            margin-left: 42px;
         }
-        .blank{
-            height:100px;
+               
+          #bg{
+                   
+                   background-image:url('Images/bj1.jpg');
+                   background-color:silver;
+                  
+              }
+      #img{
+
+      }
+        .auto-style3 {
+            width: 254px;
         }
-         
     </style>
 </head>
-<body>
-   <div class="container">
-        <div class="img">
-        <div class="center">
-    <form id="form1" runat="server">
-    <div id="bj">
-      
-    <div style="width: 530px">
-<div class="re">                      
-<marquee direction="left" align="bottom"  height="25" width="100%" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="2" scrolldelay="1">武汉家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
-                 请按照以下方式进行注册,注册后就能与家长进行联系！</marquee>
-</div>
+<body id="bg">
+  <form id="form1" runat="server">
+    <br />
+    <div>
+        <asp:Label ID="lable1" runat="server" ForeColor="black"  Font-Size="15px" 
+            Text="猿辅导家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
+                 请按照以下方式进行注册,注册后就能与家长进行联系！"   ></asp:Label>
     </div>
-        <div class="blank"></div>
+    <br />
+    <br />
+    <br />
+      <div style="padding-left:280px;">  <asp:Label runat="server" ID="lbl1"  ForeColor="cadetblue" Text="<h1> 欢迎管理员</h1>"></asp:Label>
+      <style type="text/css">
+        .auto-style1 {
+            width: 157px;
+        }
+        .auto-style2 {
+            margin-left: 42px;
+        }
+               
+          #bg{
+                   
+                   background-image:url('Images/bj1.jpg');
+                   background-color:silver;
+                  
+              }
+      #img{
 
+      }
+        .auto-style3 {
+            width: 254px;
+        }
+    </style>
+    <br />
+    <br />
+       
+    
        <table align="center" width:30%; style="height: 199px; width: 366px">
-        <caption class="auto-style1">欢迎管理员</caption>
+        
               
         <tr>
            
@@ -82,10 +92,10 @@
         <tr>
             <td class="auto-style1"> </td>
             <td class="auto-style5">
-                 <asp:Button ID="denglu" runat="server" Text="登录" Height="25px" OnClick="denglu_Click" /> &nbsp;
+                 <asp:Button ID="denglu" runat="server" Text="登录" BackColor="skyblue" Height="26px" OnClick="denglu_Click" Width="50px" /> &nbsp;
             
            &nbsp;&nbsp;
-                <asp:Button ID="zhuce" runat="server" Text="注册" OnClick="zhuce_Click" />
+                <asp:Button ID="zhuce" runat="server" BackColor="skyblue" Text="注册" OnClick="zhuce_Click" Height="26px" Width="50px" />
             </td>
         </tr>
           <tr>
