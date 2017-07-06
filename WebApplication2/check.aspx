@@ -19,7 +19,7 @@
   <div>
        
     <div>
- <asp:Label ID="lable1" runat="server" ForeColor="Blue"  Font-Size="15px" 
+ <asp:Label ID="lable1" runat="server"   Font-Size="15px" 
             Text="武汉家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
                  请按照以下方式进行注册,注册后就能与家长进行联系！"   ></asp:Label>                      
         
@@ -136,7 +136,7 @@
     <br />
     <br />
     <div align="center">
-        <asp:Button ID="chazhao" runat="server" Text ="查找" ForeColor="White" BackColor="RoyalBlue" Height="34px"  OnClick="chazhao_Click" Width="79px" />
+        <asp:Button ID="chazhao" runat="server" Text ="查找" ForeColor="White" BackColor="skyBlue" Height="34px"  OnClick="chazhao_Click" Width="79px" />
     </div>
     </form>
 </body>
