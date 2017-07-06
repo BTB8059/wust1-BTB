@@ -29,7 +29,7 @@
         <br />
         
     <div align="center">
-        <asp:Label ID="labe" runat="server" Text ="个人家教注册" ForeColor="cadetblue"  Font-Size="30px"></asp:Label>
+        <asp:Label ID="labe" runat="server" Text ="个人家教注册" ForeColor="cadetblue"  Font-Size="50px"></asp:Label>
     </div>
         <br />
         <br />
