@@ -10,7 +10,10 @@
         }
 
         .bg1{
-            background-image:url(pen.gif);
+            background-image:url(/img/pen.jpg);
+            background-size:100% 100%;
+            background-repeat:no-repeat;
+            background-position-x:right;
         }
 
         .style1{
@@ -37,10 +40,50 @@
             text-align: right;
             font-size:large;
         }
+
     </style>
+    <script type="text/javascript">
+        //验证用户名（为3~16个字符，且不能包含”@”和”#”字符）
+        function checkUserName() {
+            var name = document.getElementById("name").value.trim();
+            var nameRegex = /^[^@#]{3,16}$/;
+            if (!nameRegex.test(name)) {
+                document.getElementById("nameInfo").innerHTML = "用户名为3~16个字符，且不能包含”@”和”#”字符";
+            }
+            else {
+                document.getElementById("nameInfo").innerHTML = "";
+                return true;
+            }
+        }
+
+        //验证密码（长度在8个字符到16个字符）
+        function checkPassword() {
+            var password = document.getElementById("psd1").value.trim();
+            //密码长度在8个字符到16个字符，由字母、数字和"_"组成
+            var passwordRegex = /^[0-9A-Za-z_]\w{7,15}$/;
+            if (!passwordRegex.test(password)) {
+                document.getElementById("passwordInfo").innerHTML = "密码长度必须在8个字符到16个字符之间";
+            }
+            else {
+                document.getElementById("passwordInfo").innerHTML = "";
+            }
+        }
+
+        //验证校验密码（和上面密码必须一致）
+        function checkRepassword() {
+            var repassword = document.getElementById("psd2").value.trim();
+            //校验密码和上面密码必须一致
+            if (repassword !== psd1) {
+                document.getElementById("repasswordInfo").innerHTML = "两次输入的密码不一致";
+            }
+            else if (repassword == psd1) {
+                document.getElementById("repasswordInfo").innerHTML = "";
+            }
+        }
+    </script>
 </head>
 <body class="bg">
-    <div>
+    <div class="bg1">
         <img src="img/yuanfudao.jpg" width="150" height="150" style="margin-left:100px">
         <label for="title" class="style1">家教注册</label>
     </div>
@@ -49,38 +92,41 @@
             <tr class="style4">
                 <td class="style2">用户名：</td>
                 <td>
-                    <input type="text" />
+                    <input type="text" id="name" onblur="checkUserName()" placeholder="请输入用户名" />
+                    <span id="nameInfo" style="color:red" ></span>
                 </td>
             </tr>
             <tr class="style4">
                 <td class="style2">密码：</td>
                 <td>
-                    <input type="password" />
+                    <input type="password" id="psd1" onblur="checkPassword()" placeholder="请输入密码" />
+                    <span id="passwordInfo" style="color:red" ></span>
                 </td>
             </tr>
             <tr class="style4">
                 <td class="style2">确认密码：</td>
                 <td>
-                    <input type="password" />
+                    <input type="password" id="psd2" onblur="checkRepassword()" placeholder="请输入校验密码"/>
+                    <span id="repasswordInfo" style="color:red"></span>
                 </td>
             </tr>
             <tr class="style4">
                 <td class="style2">邮箱：</td>
                 <td>
-                    <input type="text" />
+                    <input type="text" id="email" placeholder="如wusthh@163.com" style="color:gray;font-style:italic" onfocus="if(this.value=='如wusthh@163.com') this.value='';this.style.color='Black';this.style.fontStyle='normal'"/>
                 </td>
             </tr>
             <tr class="style4">
                 <td class="style2">手机：</td>
                 <td>
-                    <input type="text" />
+                    <input type="text" id="phone" />
                 </td>
             </tr>
             <tr class="style4">
                 <td class="style2">身份选择：</td>
                 <td>
-                    <label><input type="radio" />个人家教</label>
-                    <label><input type="radio" />辅导机构</label>
+                    <label><input type="radio" name="R1" id="Radio1" />个人家教</label>
+                    <label><input type="radio" name="R1" id="Radio2"/>辅导机构</label>
                 </td>
             </tr>
         </table>       
