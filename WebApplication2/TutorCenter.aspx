@@ -24,7 +24,7 @@
     <br />
     <br />
     <div align="center">
-        <asp:Label ID="label1" runat="server" Text="家教个人中心" ForeColor="blue" Font-Size="35px"></asp:Label>
+        <asp:Label ID="label1" runat="server" Text="家教个人中心" ForeColor="cadetblue" Font-Size="35px"></asp:Label>
         <br />
         <br />
     </div>

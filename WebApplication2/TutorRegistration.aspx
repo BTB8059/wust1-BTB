@@ -35,7 +35,7 @@
     <form id="form1" runat="server">
         <div class="style6">
             <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/yuanfudao.jpg" />
-            <asp:Label ID="labe" runat="server" Style="margin-left:200px"  ForeColor="RoyalBlue"  Font-Size="40px>家教注册</asp:Label>
+            <asp:Label ID="labe" runat="server" Style="margin-left:200px"  ForeColor="CadetBlue" Font-Size="40px">家教注册</asp:Label>
         </div>
         <br />
         <div class="style2">
@@ -47,7 +47,7 @@
 
                     </td>
                     <td>
-                        <asp:Button ID="jc" runat="server" Text="用户名检测" ValidationGroup="n" />                    
+                        <asp:Button ID="jc" runat="server" Text="用户名检测" BorderColor="SkyBlue" ValidationGroup="n" />                    
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="username" ValidationGroup="n" ErrorMessage="用户名不能为空!" ForeColor="Red"></asp:RequiredFieldValidator>   
                         <asp:CustomValidator ID="CustomValidator1" runat="server" ErrorMessage="用户名已经存在" ForeColor="Red" ControlToValidate="username" ValidationGroup="n" OnServerValidate="CustomValidator1_ServerValidate"></asp:CustomValidator>
                     </td>
@@ -99,8 +99,8 @@
             <br />
 
             <div class="style3">
-                <asp:Button ID="button1" runat="server" Text="注册" OnClick="button1_Click" />&nbsp;
-                <asp:Button ID="button2" runat="server" Text="重填" OnClick="button1_Click" />
+                <asp:Button ID="button1" runat="server" Text="注册" BorderColor="SkyBlue" OnClick="button1_Click" />&nbsp;
+                <asp:Button ID="button2" runat="server" Text="重填" BorderColor="SkyBlue" OnClick="button1_Click" />
             </div>
         </div>
     </form>

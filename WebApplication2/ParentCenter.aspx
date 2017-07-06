@@ -9,7 +9,7 @@
     <style type="text/css">
           #bg{
                      background-color:silver;
-                      background-image:url('Images/bj8.jpg');
+                      background-image:url('Images/j2.jpg');
                    
 
               }
@@ -29,13 +29,13 @@
 
     <div>
                        
-<marquee direction="left" align="bottom" height="25" width="100%" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="2" scrolldelay="1">武汉家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
+<marquee direction="left" align="bottom" height="25" width="100%" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="2" scrolldelay="1">猿辅导家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
                  请按照以下方式进行注册,注册后就能与家长进行联系！</marquee>
     </div>
-
-  
+    <br />
+    <br />
     <div align="center">
-        <asp:Label ID="label1" runat="server" Text="家长个人中心" ForeColor="YellowGreen" Font-Size="35px"></asp:Label>
+        <asp:Label ID="label1" runat="server" Text="家长个人中心" ForeColor="cadetblue" Font-Size="35px"></asp:Label>
        
        <div>
             <br /> 

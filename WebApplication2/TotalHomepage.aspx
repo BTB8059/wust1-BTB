@@ -18,6 +18,7 @@
           #bg{
                    
                    background-image:url('Images/bj1.jpg');
+                   background-size:cover;
                    background-color:silver;
                   
               }

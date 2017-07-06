@@ -7,7 +7,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
     <style type="text/css">
-          #bg{ background-color:peachpuff;
+          #bg{ 
+                   background-image:url('Images/J2.jpg');
+                   background-size:cover;
+;
               }
       </style>
 </head>
@@ -25,7 +28,7 @@
         </div>
         <div style="float:left; padding-left:200px">
     <div >
-    <asp:Button runat="server" Text="确认" ID="submit" OnClick="submit_Click" />
+    <asp:Button runat="server" Text="确认" BackColor="SkyBlue" ID="submit" OnClick="submit_Click" />
     </div>
         <br />
         <br />
@@ -38,7 +41,7 @@
           <br />
           <br />
         <div>
-            <asp:button runat="server" ID="goback" Text="返回" OnClick="goback_Click" />
+            <asp:button runat="server" ID="goback" Text="返回" BackColor="SkyBlue" OnClick="goback_Click" />
         </div>
         </div>
      

@@ -8,7 +8,8 @@
     <title></title>
           <style type="text/css">
           #bg{
-                    background-color:peachpuff;
+                    background-image:url('Images/J2.jpg');
+                   background-size:cover;
               }
       </style>
 </head>
@@ -22,12 +23,13 @@
 <marquee direction="left" align="bottom" height="25" width="100%" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="2" scrolldelay="1">武汉家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
                  请按照以下方式进行注册,注册后就能与家长进行联系！</marquee>
     </div>
-
+        <div style="float:left"><img src="Images/o.png" style="height:200px;width:200px;" /></div>
         <br />
         <br />
         <br />
+        
     <div align="center">
-        <asp:Label ID="labe" runat="server" Text ="个人家教注册" ForeColor="GreenYellow"  Font-Size="30px"></asp:Label>
+        <asp:Label ID="labe" runat="server" Text ="个人家教注册" ForeColor="cadetblue"  Font-Size="30px"></asp:Label>
     </div>
         <br />
         <br />
@@ -163,7 +165,7 @@
         </table>
     </div>
     <div align="center">
-        <asp:Button ID="xiayibu" runat="server" Text="下一步"  BackColor="Yellow" Height="29px" Width="169px" OnClick="xiayibu_Click" />
+        <asp:Button ID="xiayibu" runat="server" Text="下一步"  BackColor="skyblue" Height="29px" Width="169px" OnClick="xiayibu_Click" />
     </div> 
     </form>
 </body>
