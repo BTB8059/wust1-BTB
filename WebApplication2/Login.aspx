@@ -8,11 +8,8 @@
     <title></title>
   <style  type="text/css">
          body{
-             background-color:#ffffff;
-             background-image:url('Images/lsy4.jpg');
-             opacity:0.9;
-             background-position:right;
-             background-repeat:no-repeat;
+             background-image:url('Images/bj1.jpg');
+                   background-color:silver;
          }
          .auto-style6 {
             float:left;
@@ -54,7 +51,7 @@
     <div style="float:left;padding-left:300px;">
        <div class="bo">
          <div align="center">
-         <asp:Label ID="label2" runat="server" ForeColor="LightBlue" Font-Size="35px" Text="非家长登录">
+         <asp:Label ID="label2" runat="server" ForeColor="CadetBlue" Font-Size="35px" Text="非家长登录">
          </asp:Label>
          
        </div>
@@ -93,7 +90,7 @@
            
        <div class="bo">
        <div align="center">
-      <asp:Label ID="label1" runat="server" ForeColor="LightBlue" Font-Size="35px" Text="家长登录"></asp:Label>
+      <asp:Label ID="label1" runat="server" ForeColor="CadetBlue" Font-Size="35px" Text="家长登录"></asp:Label>
       </div>
      
         <div align="center">
