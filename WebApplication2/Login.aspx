@@ -64,7 +64,7 @@
               </div>
             </div>
             <div class="auto-style4">
-                <div align="center" class="auto-style6" >密码</div>
+                <div align="center" class="auto-style6" >密&nbsp;码</div>
                 <div align="center" class="auto-style7">
                     <asp:TextBox ID="TutPsw" runat="server"  TextMode="Password" Height="21px" >
                     </asp:TextBox>
