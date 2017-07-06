@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="js/jquery.min.js" ></script>
     <title></title>
     <meta charset="utf-8" />
     <style type="text/css">
@@ -35,26 +36,27 @@
             height: 40px;
         }
 
-        .style5{
+        .style5 {
             width: 55%;
             text-align: right;
-            font-size:large;
-        }
-        input[type=text],input[type=password]{
-            width:200px;
-            height:20px;
+            font-size: large;
         }
 
-        input[type=submit],input[type=reset]{
-            width:50px;
-            height:25px;
+        input[type=text], input[type=password] {
+            width: 200px;
+            height: 20px;
+        }
+
+        input[type=button] {
+            width: 50px;
+            height: 25px;
         }
     </style>
     <script type="text/javascript">
         //用户名不能为空
         function checkUserName() {
             var name = document.getElementById("name").value.trim();
-            if (name=="") {
+            if (name == "") {
                 document.getElementById("nameInfo").innerHTML = "用户名不能为空";
             }
             else {
@@ -65,15 +67,36 @@
 
         //密码不能为空
         function checkPassword() {
-            var password = document.getElementById("psd1").value.trim();
-            if (password=="") {
+            var password = document.getElementById("password").value.trim();
+            if (password == "") {
                 document.getElementById("passwordInfo").innerHTML = "密码不能为空";
             }
             else {
                 document.getElementById("passwordInfo").innerHTML = "";
             }
         }
-     </script>
+
+        function mycheck() {
+            var name = document.getElementById("name").value.trim();
+            var password = document.getElementById("password").value.trim();
+            debugger;
+            $.ajax({
+                type: "get",
+                url: "data.json",
+                data: "name=" + name + "password=" + password,
+                success: function (rm) {
+                    alert(rm.message);
+                    if (rm == "ok") {
+                        $("#confirm").text("登陆成功");
+                    }
+                    else {
+                        $("#confirm").text("登陆失败");
+                    }
+                },
+                dataType: "json"
+            })
+        }
+    </script>
 </head>
 <body class="bg">
     <div class="bg1">
@@ -101,10 +124,10 @@
         </table>
     </div>
     <br />
-
+    <div><span id="confirm"></span></div>
     <div class="style5">
-        <input id="Submit1" type="submit" value="提交" />&nbsp;&nbsp;
-        <input id="Reset1" type="reset" value="重填" />
+        <input id="Submit1" type="button" value="提交" onclick="mycheck()" />&nbsp;&nbsp;
+        <input id="Reset1" type="button" value="重填" />
     </div>
 
 </body>
