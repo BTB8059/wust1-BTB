@@ -17,7 +17,8 @@
    
  #bg{
     
-      background-color:peachpuff;
+      background-color:silver;
+      background-image:url('Images/bj1.jpg');
 
  }
      
@@ -28,7 +29,7 @@
   
     <div>
                        
-<marquee direction="left" align="bottom" height="25" width="100%" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="2" scrolldelay="1">武汉家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
+<marquee direction="left" align="bottom" height="25" width="100%" onmouseout="this.start()" onmouseover="this.stop()" scrollamount="2" scrolldelay="1">猿辅导家教网常年进行武汉家教招聘，如果您想做武汉家教兼职或找家教工作
                  请按照以下方式进行注册,注册后就能与家长进行联系！</marquee>
     </div>
 
@@ -36,7 +37,7 @@
         <br />
         <br />
     <div align="center">
-        <asp:Label ID="labe" runat="server" Text ="管理员注册" ForeColor="GreenYellow"  Font-Size="30px"></asp:Label>
+        <asp:Label ID="labe" runat="server" Text ="管理员注册" ForeColor="cadetblue"  Font-Size="30px"></asp:Label>
     </div>
         <br />
         <br />
@@ -55,7 +56,7 @@
         <td align="right">*您的手机：</td>
         <td align="left"><asp:TextBox ID="nindeshouji" runat="server"></asp:TextBox></td>
 
-        <td align="left" class="auto-style2"><asp:Button ID="jc" runat="server" Text="手机号检测" ValidationGroup="n"  style="height: 21px" OnClick="jc_Click"/></td>         
+        <td align="left" class="auto-style2"><asp:Button ID="jc" runat="server" Text="手机号检测" ValidationGroup="n"  BackColor="skyblue" style="height: 21px" OnClick="jc_Click"/></td>         
         <td align="left"><asp:RequiredFieldValidator ID="RequiredFieldValidator_nindeshouji" runat="server" ValidationGroup="n"
         ErrorMessage="手机号必填" ForeColor="Red" ControlToValidate="nindeshouji" Text="*不能为空"></asp:RequiredFieldValidator></td>
     </tr>
@@ -98,7 +99,7 @@
 </table>
   </div>
         <div align="center">
-            <asp:Button ID="zhuce" runat="server" Text="注册"  BackColor="Yellow" Height="29px" Width="71px" OnClick="zhuce_Click" />
+            <asp:Button ID="zhuce" runat="server" Text="注册"  BackColor="skyblue" Height="29px" Width="71px" OnClick="zhuce_Click" />
         </div>    
         <br />
         <div>
