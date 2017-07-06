@@ -28,7 +28,7 @@
         <br />
         <br />
     <div align="center">
-        <asp:Label ID="labe" runat="server" Text ="家长注册"  ForeColor="#ff3300"  Font-Size="30px"></asp:Label>
+        <asp:Label ID="labe" runat="server" Text ="家长注册"  ForeColor="cadetblue"  Font-Size="30px"></asp:Label>
     </div>
         <br />
         <br />
